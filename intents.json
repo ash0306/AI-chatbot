@@ -1,0 +1,66 @@
+{"intents": [
+    {"tag": "noanswer",
+    "patterns": [""," ","    "],
+    "response": ["Sorry, can't understand you", "Please give me more information", "Not sure I understand"]
+    },
+    {"tag": "intro",
+    "patterns":  ["hello","hi","hey","good morning","good afternoon","good evening","what's up?","hi blue!","hy"],
+    "response": ["Hello!","Hi!","Hey!","Hi, How can I help you today?","Hello, What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns":  ["bye","goodbye","See you later","see you"],
+    "response": ["Bye","Goodbye","See you","See you later","Hope to see you again"]
+    },
+    {"tag": "thanks",
+    "patterns":  ["thanks","thank you","That was helpful","thanks for the help"],
+    "response": ["Thank you","Glad to be of help","You are welcome!","Welcome","Glad to be of assistance"]
+    },
+    {"tag": "cbname",
+    "patterns":  ["What can I call you?","What is your name?","What do you like to be called?","Do you have a name?","How can I call you?","who are you?"],
+    "response": ["You can call me Blue!","My name is Blue!","I like to be called Blue!"]
+    },
+    {"tag": "aboutsec",
+    "patterns":  ["tell me about sec","can you tell me about SEC","Can you tell me about Saveetha Engineering College?","Tell me about Saveetha Engineering College"],
+    "response": ["1)Saveetha Engineering College (SEC) was established in 2001, by the Founder Chairman Dr. N. M. Veeraiyan, a committed and dedicated Medical Professional.\n2)SEC has a total strength of 4349 students in 15 UG courses, 8 PG Courses including MBA, MS by Research and Doctoral programs (PhD)  in five Departments.\n3)National Board of Accredition NBA has Accredited 5 UG courses.\n4)Ranked 96 by NIRF- National Institute Ranking Framework for the academic year 2017-18 among all IITs, Central, State and Private Institutions in India. \n5)Awarded 'A' GRADE with a high score of 3.19 on a scale of 4 by the National Assessment and Accreditation Council (NAAC) for 5 Years.\n6)SEC awarded AUTONOMOUS status by the UGC from the academic year 2019-2020.\n7)SEC is recognized as a Scientific and Industrial Research Organization (SIRO) by the Department of Scientific and Industrial Research (DSIR), Government of India."]
+    },
+    {"tag": "thanks",
+    "patterns":  ["thanks","thank you","That was helpful","thanks for the help"],
+    "response": ["Thank you","Glad to be of help","You are welcome!","Welcome","Glad to be of assistance"]
+    },
+    {"tag": "tasks",
+    "patterns":  ["what can you do?","what do you do?", "what is your purpose?","what is this chatbots purpose?"],
+    "response": ["I can tell you about Saveetha Engineering College","I can solve your queries about Saveetha Engineering College"]
+    },
+    {"tag": "admission_process",
+    "patterns":  ["Can you tell me about the admission process?","What is the admission process?","How does the admission process go?","How can I get a seat?"],
+    "response": ["Candidate can contact the Admission Office for all Admission related queries\nYou can apply for admission through the following methods\n1. By submitting the Registration Form in the homepage of our Website.\n2. By Calling +91-8939902737.\n3. By sending e-mail to admission@saveetha.ac.in\n4. Walking into the admission @ SEC campus on any working day.\nStep 1: Register as Prospective SEC Student by anyone of the above methods.\nStep 2: You will be assigned, a designated Admission Counsellor to make the process hassle free\nStep 3: Your designated Admission Counsellor will give guidance to admission @ SEC based on the Cut Off Marks* obtained in the higher secondary (10+2) examination either Math, Physics, Chemistry Stream or the Vocational stream (Vocational groups in Engineering/ Technology) as prescribed by the Govt. of Tamilnadu either through \n             a. Single Window Counseling conducted by the DOTE through Tamilnadu Engineering Admissions (TNEA) or\n              b. Counselling coducted  by the Consortium of Self Financing Professtional, Arts and Science Colleges in TN."]
+    },
+    {"tag": "transport",
+    "patterns":  ["What are the transport facilities available?","What are bus facilities?","How does the transport facility work?","Bus facilities"],
+    "response": ["We have multiple A/C bus routes throughout Chennai, Kanchipuram and Thiruvallur. You can avail transport facilities by choosing the appropriate bus route for you.\nFor additional information you can contact the transport office found at ECE block ground floor."]
+    },
+    {"tag": "hostel",
+    "patterns":  ["What are the hostel facilities?","What are the hostel facilities available?","What are the hostel facilities in your college?","What are the hostel facilities available in your college?"],
+    "response": ["The hostel facilities are as follows:\nTwo separate exclusive boys and girls hostel – 8 storied buildings which can accommodate 500 students each.\nSingle, 2 , 3 & 8 Bedded accommodation\nOptional A/C facility\nState of the art Gym & Indoor games\nWIFI connectivity\n24/7 in house medical care with 1000 beded Multi-Speciality Hospital within the campus\nEntertainment halls with multi channel television facility\nOpen air movie screening facility for weekly movie shows\nExclusive visitors lounge\n24/7 security vigilance\nTreated RO water in all the floors for drinking purpose.\nSolar hot water for bathing.\nClean Hygienic environment\nSmoking free campus\nRagging free campus"]
+    },
+    {"tag": "degrees",
+    "patterns":  ["What are the various courses offered?","What are the courses offered?","What are the various degrees offered?","What are the degrees offered?"],
+    "response": ["We have various courses such as Bachelor of Engineering(B.E), Master of Engineering(M.E), Bachelor of Technology(B.Tech), Bachelor in Business Administration(MBA)"]
+    },
+    {"tag": "departments",
+    "patterns":  ["What are the departments?","What are the various departments?","What are the departments available?"],
+    "response": ["The departments are Agricultural Engineering,\nArtificial Intelligence & Data Science,\nArtificial Intelligence & Machine Learning,\nBio Medical Engineering,\nChemical Engineering,\nCivil Engineering,\nComputer Science & Engineering,\nComputer Science & Engineering (Cyber Security),\nComputer Science & Engineering (Internet of Things),\nElectrical & Electronics Engineering,\nElectronics & Instrumentation Engineering,\nElectronics & Communication Engineering,\nInformation Technology,\nMaster of Business Administration,\nMechanical Engineering,\nMedical Electronics,\nScience and Humanities,\nSaveetha Centre for Future Technologies (SCoFT),\nSaveetha Centre for Foreign Languages,\nTraining"]
+    },
+    {"tag": "clubs",
+    "patterns":  ["what are the various clubs offered?","What kind of clubs can students be a part of?"],
+    "response": ["At the Campus, Students have the option to choose their passionate club and become members.\nCoders Club\nLiterary Club\nMath Club\nChemsoft Club\nRobotics Club\nCuris Club\nInnovation Club\nYoung India Club"]
+    },
+    {"tag": "cse",
+    "patterns":  ["can you tell about cse department","tell me about cse department","cse department","about cse department"],
+    "response": ["The Department of Computer science and Engineering was established in the year 2001 with an intake of 60 students. It was increased to 120 students in the year 2005-2006. In 2017-18 it is increased to 180. Our Department offers B.E Computer science and Engineering, M.E Computer science and Engineering programs. The department has a team of 46 sincere, dedicated, competent and experienced faculty with commitment to serve the college in achieving its goals. All have completed their master degrees, 14 of them are Doctorates and most of them are pursuing their Ph.D.s. Every year we are producing very good results.\n\nAll the class rooms are well furnished, air conditioned,with smart board facility.\n\nThe department has 8 laboratories with air condition and internet facility in all the systems. The department has well equipped Laboratories with leading branded systems, which are set up at International standards to give the best to the students. Totally 423 systems with higher configuration and smart boards are available in the Laboratories."]
+    },
+    {"tag": "facilities_cse",
+        "patterns": ["what are the facilities of cse department","facilities in cse department"],
+        "response": ["Augmented with a modern computer center, the department offers the best and updated practical training. It is well equipped with 6 diversified laboratories including a dedicated laboratory for the Post-Graduate students installed with a variety of software catering to the needs of the students and covering the curriculum specified by the affiliated University, Anna University. All the computers in the campus, including those in the hostels and department are connected by means of a network so that the students from the hostel and the staff and students from different departments can have direct access to the facilities in the Computer labs round the clock. This college is one of the first to provide such a campus-wide network facility. The Computer Center has licensed packages to facilitate work in UBUNTU & WINDOWS.  Also, it has the commonly required latest licensed versions of ORACLE, VISUAL STUDIO AND MS OFFICE. All the computer labs are fully air conditioned with adequate centralized UPS backup."]
+    }
+]}
